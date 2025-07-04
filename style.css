@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 0px;
+}
+
+.container-box {
+  background: white;
+  margin-top:20vh;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+.option {
+  text-align: left;
+  margin: 10px 0;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+.certificate h2 {
+  color: #2c3e50;
+}
+.incorrect {
+  background-color: #f8d7da !important;
+  border: 1px solid #f5c6cb;
+}
